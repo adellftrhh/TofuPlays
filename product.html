@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TofuPlays ── Products</title>
+  <link rel="shortcut icon" type="image/png" href="gamingicon.png"/>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body { font-family: "Comic Sans MS", cursive, sans-serif; background: linear-gradient(to bottom right, #FED8B1, #B2D9FF); color: #333; min-height: 100vh; display: flex; flex-direction: column;justify-content: space-between; }
+
+    a { text-decoration: none; color: inherit; }
+
+    nav { background: rgba(255, 255, 255, 0.3); padding: 15px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+
+    .nav-container { display: flex; justify-content: center; }
+
+    ul { list-style: none; display: flex; gap: 15px; flex-wrap: wrap; }
+
+    li a { padding: 12px 18px; font-size: 16px; color: black; border-radius: 5px; transition: background 0.3s, opacity 0.3s; text-shadow: 1px 1px 5px floralwhite; }
+
+    li a:hover { background-color: white; opacity: 0.7; }
+
+    .products-section { padding: 40px 20px; flex-grow: 1; }
+
+    .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;max-width: 1000px; margin: 0 auto; }
+
+    .product-card { background-color: rgba(255,255,255,0.6); border-radius: 10px; padding: 20px;text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); display: flex; flex-direction: column;justify-content: space-between; }
+
+    .product-card img { width: 100%; max-height: 150px; object-fit: contain; margin-bottom: 15px; }
+
+    .buy-button { margin-top: auto; padding: 10px 16px; font-size: 14px; color: white; background-color: #007BFF; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s; width: 100%; max-width: 140px; align-self: center; text-align: center; }
+
+    .buy-button:hover { background-color: #0056b3; }
+
+    footer { text-align: center; padding: 20px; font-size: 14px; background-color: rgba(255,255,255,0.2);color: #333; }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Products Section -->
+  <section class="products-section">
+    <h2 style="text-align:center; margin-bottom: 30px;">Our Gaming Products</h2>
+    <div class="products-grid">
+
+      <div class="product-card">
+        <img src="controller.png" alt="Game Controller">
+        <h3>Wireless Game Controller</h3>
+        <p>Dual vibration feedback, long battery, and high precision. Works with PC and consoles.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="headset.png" alt="Gaming Headset">
+        <h3>Surround Sound Headset</h3>
+        <p>7.1 sound with noise-cancelling mic. Crisp audio for full immersion.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="keyboard.png" alt="Gaming Keyboard">
+        <br>
+        <br>
+        <h3>Mechanical RGB Keyboard</h3>
+        <p>Responsive keys, rainbow lighting, and durable for intense gameplay.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="mouse.png" alt="Gaming Mouse">
+        <h3>Precision Gaming Mouse</h3>
+        <p>Ergonomic design, 16000 DPI, and programmable buttons for custom control.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="microphone.png" alt="Streaming Microphone">
+        <h3>Streaming Microphone</h3>
+        <p>USB plug-and-play mic with studio sound. Great for streamers and calls.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="racingwheel.png" alt="Racing Wheel">
+        <h3>Racing Wheel Set</h3>
+        <p>Realistic feedback, paddle shifters, and foot pedals for full racing thrill.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="gaming monitor.png" alt="Gaming Monitor">
+        <h3>Gaming Monitor 144Hz</h3>
+        <p>1ms response time and Full HD 144Hz screen. Smooth visuals for action games.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+
+      <div class="product-card">
+        <img src="gamingchair.png" alt="Gaming Chair">
+        <h3>Ergonomic Gaming Chair</h3>
+        <p>Reclining seat with lumbar support for long gaming hours in comfort.</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 TofuPlays. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
